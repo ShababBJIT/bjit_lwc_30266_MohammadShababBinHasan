@@ -1,0 +1,40 @@
+<template>
+    <lightning-card title = "Forecast Manager">
+        <div class="slds-p-around-medium">
+            
+
+        for:each{opportunities} for:item opportunity
+    <template>
+        <di>key = opp</di>
+            <p>opp-id=opp.id</p>
+            <p>opp-name =opp.Name</p>
+            <p>opp-amount =opp.Amount</p>
+            <p>opp-probability= opp.Probability</p>
+            <p>opp-expected = opp.Expected_Revenue_Overridden__c</p>
+        </div>
+        <div>
+            <lightning-button
+                label="Set Expected Revenue"
+                onclick={setExpectedRevenue}>
+            </lightning-button>
+
+
+
+        </div>
+    </template>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+    </lightning>
+    
+</template>

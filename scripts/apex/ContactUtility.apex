@@ -1,1 +1,0 @@
-ContactUtility.viewContacts();
